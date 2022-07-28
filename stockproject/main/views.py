@@ -3,5 +3,5 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def home(self):
-    return render(self,'main/basic.html')
+def stockPicker(self):
+    return render(self,'main/stockpicker.html')
